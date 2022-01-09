@@ -1,0 +1,133 @@
+.mainPost{
+    display: flex;
+    flex: 0.65;
+    height: auto;
+    overflow-y: auto;
+}
+.mainPost_container{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin-left: auto;
+}
+.mainPost_story{
+    border: 1px solid lightgray;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 45px;
+}
+.story_border{
+    border: 1px solid #b92b27;
+    border-radius: 40px;
+    border-width: 3px;
+    padding: 1.2px;
+}
+.mainPost_card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.mainPost_card_Header{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.mainPost_card_Header > h3{
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.mainPost_card_Image{
+    width: 100%;
+    max-height: 40em;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.mainPost_card_Image > img{
+    object-fit: contain;
+    background-repeat: no-repeat;
+    max-height: 40em;
+}
+.mainPost_card_info{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.mainPost_card_info_icons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.mainPost_card_info_icons > .MuiSvgIcon-root{
+    color: black;
+    margin-left: 2vw;
+    font-size: 15px !important;
+}
+
+.mainPost_card_info_caption{
+    display: flex;
+    flex-direction: column;
+}
+.mainPost_card_info_caption > h3{
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.caption_user > h4, h3{
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.caption_user{
+    display: flex;
+    flex-direction: column;
+}
+.user_details{
+    display: flex;
+    align-items: center;
+}
+.user_details > p{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.mainPost_card_info_footer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 39px;
+    padding: 5px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 10px;
+}
+
+.mainPost_card_info_footer_container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+} 
+
+.mainPost_card_info_footer_container > .MuiSvgIcon-root{
+    color: black;
+    padding: 10px;
+}
+.mainPost_card_info_footer_container> input{
+    flex: 1;
+    border: none;
+    outline-width: 0;
+    margin-left: 10px;
+}

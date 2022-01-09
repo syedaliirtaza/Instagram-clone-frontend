@@ -1,0 +1,7 @@
+.upload{
+    display: grid;
+    place-items: center;
+    top: 50px;
+    border: 1px solid gray;
+    padding: 2em;
+}

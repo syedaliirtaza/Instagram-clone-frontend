@@ -1,0 +1,81 @@
+.rightSidebar{
+    display: flex;
+    flex: 0.35;
+    height: auto;
+}
+.rightSidebar_container{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: 20px;
+}
+.rightSidebar_container_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 45px;
+}
+.rightSidebar_display{
+    display: flex;
+    align-items: center;
+}
+.rightSidebar_info{
+    display: flex;
+    flex-direction: column;
+}
+.rightSidebar_info > h3, p{
+    font-size: 15px;
+}
+.rightSidebar_info > h3{
+    font-weight: 600;
+}
+.rightSidebar_info > p{
+    color: gray;
+    margin-left: 12px;
+}
+.switch{
+    color: blue;
+}
+.rightSidebar_container_suggestions{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.suggestion_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.suggestion_head > h3{
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+}
+.suggestion_head > p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.suggestion_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.suggestion_body_display{
+    display: flex;
+}
+.suggestion_body_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.suggestion_body_info > h2{
+    font-size: 16px;
+}
+.suggestion_body > small{
+    font-weight: 600;
+}
+
